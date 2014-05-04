@@ -17172,7 +17172,8 @@ fetchData: function (url,opcion) {
       album_name: album.name,
       author: album.author,
       name: song.name,
-      length: song.length
+      length: song.length,
+      src:song.src
     }));
   },
 
@@ -17228,7 +17229,7 @@ module.exports = Backbone.View.extend({
   },
 
   navigate: function () {
-    Sfotipy.app.navigate("album/" + this.model.get("name"), { trigger: true });
+    Backbone.app.navigate("album/" + this.model.get("name"), { trigger: true });
   }
 
 });

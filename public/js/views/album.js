@@ -28,7 +28,7 @@ module.exports = Backbone.View.extend({
   },
 
   navigate: function () {
-    Sfotipy.app.navigate("album/" + this.model.get("name"), { trigger: true });
+    Backbone.app.navigate("album/" + this.model.get("name"), { trigger: true });
   }
 
 });

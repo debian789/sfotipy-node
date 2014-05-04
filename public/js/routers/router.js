@@ -134,7 +134,8 @@ fetchData: function (url,opcion) {
       album_name: album.name,
       author: album.author,
       name: song.name,
-      length: song.length
+      length: song.length,
+      src:song.src
     }));
   },
 

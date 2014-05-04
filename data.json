@@ -1,32 +1,22 @@
 {
-  "G I R L": {
-    "author": "Pharrel Williams",
-    "cover": "girl.jpg",
+  "Desconocido": {
+    "author": "Wilmar Peñuela",
+    "cover": "wilmar.jpg",
     "year": 2014,
     "songs": [
       {
-        "name": "Marilyn Monroe",
-        "length": "5:51"
+        "name": "Desvaneciente",
+        "artist":"Wilmar Peñuela",
+        "album":"Desconocido",
+        "length": "3:02",
+        "src":"desvaneciente.mp3"
       },
       {
-        "name": "Brand New",
-        "length": "4:31"
-      },
-      {
-        "name": "Hunter",
-        "length": "4:00"
-      },
-      {
-        "name": "Gush",
-        "length": "3:54"
-      },
-      {
-        "name": "Happy",
-        "length": "3:53"
-      },
-      {
-        "name": "Come Get it Bae",
-        "length": "3:21"
+        "name": "No se si bien o mal",
+        "artist":"Wilmar Peñuela",
+        "album":"Desconocido",
+        "length": "3:27",
+        "src":"no_se_si_bien_o_mal.mp3"
       }
     ]
   },
