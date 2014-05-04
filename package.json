@@ -1,0 +1,26 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "bundle": "browserify public/js/main.js -o public/js/app.js"
+  },
+  "dependencies": {
+    "express": "^4.0.0",
+    "static-favicon": "^1.0.0",
+    "morgan": "^1.0.0",
+    "cookie-parser": "^1.0.1",
+    "body-parser": "^1.0.0",
+    "debug": "^0.7.4",
+    "ejs": "^0.8.5",
+    "stylus": "0.42.3",
+    "logfmt": "^1.1.2",
+    "browserify": "^3.46.0",
+    "backbone": "^1.1.2",
+    "underscore": "^1.6.0",
+    "underscore.string": "^2.3.3",
+    "jquery": "^1.11.0",
+    "handlebars": "^2.0.0-alpha.2"
+  }
+}
