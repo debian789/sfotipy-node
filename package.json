@@ -21,6 +21,7 @@
     "underscore": "^1.6.0",
     "underscore.string": "^2.3.3",
     "jquery": "^1.11.0",
-    "handlebars": "^2.0.0-alpha.2"
+    "handlebars": "^2.0.0-alpha.2",
+    "mongoose": "^3.8.8"
   }
 }
