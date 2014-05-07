@@ -25,7 +25,9 @@ node ./bin/www
 
 Correr el script que se encuentra en script/db_playList.js, el cual permite ingresar informacion al PlayList  
 
-
+<pre>
+node script/db_playList.js
+</pre>
 <h3>Developer </h3>
 
 Para compilar la estructura que se encuentra en backbone es necesario correr el siguiente comando 
